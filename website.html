@@ -7,31 +7,43 @@
     <style>
         body {
             display: flex;
-            justify-content: center;
-            align-items: flex-end; /* Align items to the bottom */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: space-between; /* Space between top and bottom */
             height: 100vh;
             background-color: purple; /* Background color */
             margin: 0;
             font-family: Arial, sans-serif;
             color: white; /* Text color */
+            padding: 20px; /* Padding around the content */
+        }
+        h1 {
+            font-size: 48px; /* Size for h1 */
+        }
+        h3 {
+            font-size: 24px; /* Size for h3 */
+        }
+        ol {
+            font-size: 20px; /* Size for ordered list items */
+        }
+        .bottom-text {
+            font-size: 36px; /* Size for bottom text */
+            text-align: center; /* Center the text */
             font-weight: bold; /* Make text bold */
-            text-align: center;
-            padding-bottom: 130px; /* Space from the bottom */
-            font-size: 96px; /* Adjust size here */
+            padding-bottom: 20px; /* Space from the bottom */
         }
     </style>
 </head>
 <body>
-    <div>Level Up In Tech - Trust The Process!</div>
+    <div>
+        <h1>Hello Level Up In Tech!</h1>
+        <h3>Anyone can transition to DevOps. The steps are:</h3>
+        <ol>
+            <li>Trust the process</li>
+            <li>Work hard</li>
+            <li>Be consistent</li>
+            <li>Stay Hungry</li>
+        </ol>
+    </div>
+    <div class="bottom-text">Level Up In Tech - Trust The Process!</div>
 </body>
 </html>
-
-<h1>Hello Level Up In Tech!</h1>
-<h3>Anyone can transition to DevOps. The steps are: </h3>
-<ol>
-    <li>Trust the process</li>
-    <li>Work hard </li>
-    <li>Be consistent</li>
-    <li>Stay Hungry</li>
-</ol>
-
